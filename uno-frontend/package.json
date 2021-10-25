@@ -1,5 +1,5 @@
 {
-  "name": "uno-client",
+  "name": "uno-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
