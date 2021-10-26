@@ -25,7 +25,7 @@ enum CardType {
 
 // represents how many times a card is repeated through all
 // colors in CardColor, number index are linked by CardType
-export const cardSize: number[] = [
+const cardSize: number[] = [
     1,
     2,
     2,
