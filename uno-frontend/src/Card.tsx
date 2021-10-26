@@ -54,7 +54,7 @@ class Card {
 };
 
 // source: https://stackoverflow.com/a/2450976
-function shuffleDesk(array: Card[]): Card[] {
+export function shuffleDesk(array: Card[]): Card[] {
     let currentIndex = array.length, randomIndex;
 
     // While there remain elements to shuffle...
@@ -70,7 +70,7 @@ function shuffleDesk(array: Card[]): Card[] {
     return array;
 }
 
-function getRandomDesk(): Card[] {
+export function getRandomDesk(): Card[] {
     let desk: Card[] = new Array(108);
     let next: number = 0;
 
@@ -85,4 +85,4 @@ function getRandomDesk(): Card[] {
     return shuffleDesk(desk);
 }
 
-export default {CardColor, CardType, Card, shuffleDesk, getRandomDesk};
+export default Card;
