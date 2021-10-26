@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
-function Board(props: any) {
-    return ('');
-}
+const Board: React.FC = () => {
+	return <div />;
+};
 
 export default Board;

@@ -1,5 +1,5 @@
-function Desk(props: any) {
-    return ('');
+const Desk: React.FC = () => {
+	return <div/>;
 }
 
 export default Desk;

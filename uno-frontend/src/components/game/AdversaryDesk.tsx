@@ -1,5 +1,5 @@
-function AdversaryDesk(props: any) {
-    return ('');
-}
+const AdversaryDesk: React.FC = () => {
+	return <div />;
+};
 
 export default AdversaryDesk;
